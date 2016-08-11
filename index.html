@@ -1,42 +1,250 @@
----
-layout: default
----
-<div class="row" style="margin-bottom:30px">
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>the musical programmer</title>
+  <meta name="description" content="A profolio for an artical programmer.
+">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- should put bootstrap before main style sheet, or it't hard to override  -->
+  <link rel="stylesheet" href="/jbstudio/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/jbstudio/">
+  <link rel="alternate" type="application/rss+xml" title="the musical programmer" href="http://yourdomain.com/jbstudio/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container" style="text-align:center;">
+    <a class="site-title" href="/jbstudio/" style="margin:auto;width:100%;"><img src="/jbstudio/img/header.png"></img></a>
+  </div>
+  <br />
+
+  <div class="container" style="text-align:center">
+    <div class="navbar" style="margin-bottom:0;border:0">
+    <ul class="navbar-nav nav header-nav">
+    <li><a href="/jbstudio/index.html" class="button nav-button">Programming Blog</a></li>
+    <li><a href="/jbstudio/compositions.html" class="button nav-button">Music Compositions</a></li>
+    <li class="trigger">
+      <a href="/jbstudio/about-me.html" class="button nav-button">About Me</a>
+    </li>
+    </ul>
+    </div>
+  </div>
+
+</header>
+<div class="clearfix">
+
+
+    <div class="page-content">
+      <div class="container" style="padding-left:0;padding-right:0;">
+        <div class="row" style="margin-bottom:30px">
   <div class="home col-md-8">
-    {% for post in site.posts %}
+    
     <div class="post-contents">
       <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="/jbstudio/jekyll/update/2016/08/10/welcome-to-jekyll.html">Welcome to Jekyll!</a>
       </h2>
-      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>{{ post.date | date: "%b %-d, %Y" }}</span>
-      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a></span>
-      {% for tag in post.tags  %}
-      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag }}</span>
-      {% endfor %}
+      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>Aug 10, 2016</span>
+      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="/jbstudio/jekyll/update/2016/08/10/welcome-to-jekyll.html#disqus_thread"></a></span>
+      
 
       <div class="post-content truncate" itemprop="articleBody" style="max-height:300px;margin-top:20px;">
-	{{ post.content }}
+	<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
       </div>
       <div style="height:50px;">
-	<a href="{{ post.url }}" class="button readmore-button">Read More</a>
+	<a href="/jekyll/update/2016/08/10/welcome-to-jekyll.html" class="button readmore-button">Read More</a>
       </div>
     </div>
     <br />
-    {% endfor %}
+    
+    <div class="post-contents">
+      <h2>
+        <a class="post-link" href="/jbstudio/2016/05/11/my-journey-in-meditation.html">My Journey in Meditation</a>
+      </h2>
+      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>May 11, 2016</span>
+      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="/jbstudio/2016/05/11/my-journey-in-meditation.html#disqus_thread"></a></span>
+      
+      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>spirituality</span>
+      
+
+      <div class="post-content truncate" itemprop="articleBody" style="max-height:300px;margin-top:20px;">
+	<p>My journey of meditation started two years ago, when I was a freshmen in collage. I read a book named “the mindful way through depression” by Zindel Segal. I started trying MBSR (Mindfulness-based stress reduction),it brings me life-transforming impacts, which  can be called enlightenment, and thus my journey on meditation starts.</p>
+
+<p>These are several meditating methods I tried:</p>
+
+<h3 id="a-hrefhttpsenwikipediaorgwikimindfulness-basedstressreductionmbsra"><a href="https://en.wikipedia.org/wiki/Mindfulness-based_stress_reduction">MBSR</a></h3>
+<p>MBSR (Mindfulness-based stress reduction) is a non-religious way to meditate. In this process, focusing on present moment, relaxing through deep breath, free from judgements are emphasized. When I first started doing this when I was a freshmen in college, I got wonderful experience, I started to realize how beautiful a tranquil present is. My concentration improved, I got more flows during studying and happier than ever before. I kept meditating in this way for the whole year on a weekly basis, and my happiness level goes like this.</p>
+
+<p><img src="/img/happiness.png" /></p>
+
+<p>I actually didn’t insist meditating after half year since I didn’t get any improvements since then. For me, who is passionate in seeking newest exciting things, it’s hard to keep those positive changes stay for a life time, because it’s becomes less exciting if we don’t feel there are more positive changes taking place.</p>
+
+<h3 id="a-hrefhttpsenwikipediaorgwikizenzena"><a href="https://en.wikipedia.org/wiki/Zen">ZEN(禅)</a></h3>
+<p>Zen is one branch of buddhism originated in China, spread into various Asian counties, then became known as Japanese Zen.
+When I was an exchange student in Japan, I joined several zazen (座禅)  assemblies hold by famous temples.</p>
+
+<p>First I joined a half-hour Zazen activity in a 曹洞宗（そうとうしゅう）temple. People meditate facing a wall, and after a short period we will walk through the room (this is known as walking meditation, aiming to building up relationships between mind and body through simple daily activity). Then we read “Heart Sutra” (般若心经), the interesting thing here is it’s all written in Chinese characters but it sounds totally different when pronounced in Japanese. Finally came the monk explaining “Heart Sutra”, he told us everyone can be enlightened if he/she focuses on his/her real life, keeping doing good to others.</p>
+
+<p><img src="/img/temple1.png" /></p>
+
+<p>I joined another Zazen assembly in a famous 临济宗（りんざいしゅう） temple in Kyoto (<a href="http://www.myoshinji.or.jp/english/index.html">see the official website</a>), it’s a two days one night program. It was a snowy winter that time, and It was not such a pleasant stay there because we had to wake up at 4:30 am to start meditation. I tried my best to meditate but I was too sleepy. Anyway, scenery in the temple with snow falling down was quite beautiful.</p>
+
+<h3 id="a-hrefhttpwwwlamayeshecomarticlemeditation-tibetan-buddhismtibetan-meditationa"><a href="http://www.lamayeshe.com/article/meditation-tibetan-buddhism">Tibetan meditation</a></h3>
+<p>I did this follow a online course <a href="https://www.coursera.org/learn/buddhist-meditation/home/welcome">Tibetan Buddhist Meditation and the Modern World</a>. Tibetan Buddhism is quite close to primitive India Buddhism. It emphasizes Buddhism such as unavoidable suffering and  impermanence, and the first step to reduce suffering is to accept the fact that we are all suffering. For me, it’s a little difficult to fully engage in because it’s hard to understand these criteria without a Buddhism background knowledge.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>In all, probably it will take many years to be enlightened, I enjoy so much with my way of trying all kinds of meditation. As a programmer who faces bugs everyday, it’s important to bring curiosity to code, also stay relaxed towards severe problems, then every line of code will become the deepest secret of universe.</p>
+
+
+      </div>
+      <div style="height:50px;">
+	<a href="/2016/05/11/my-journey-in-meditation.html" class="button readmore-button">Read More</a>
+      </div>
+    </div>
+    <br />
+    
+    <div class="post-contents">
+      <h2>
+        <a class="post-link" href="/jbstudio/2016/05/11/my-recent-struggle-on-programming.html">My Recent Struggle In Programming</a>
+      </h2>
+      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>May 11, 2016</span>
+      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="/jbstudio/2016/05/11/my-recent-struggle-on-programming.html#disqus_thread"></a></span>
+      
+      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>programming</span>
+      
+      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>life</span>
+      
+
+      <div class="post-content truncate" itemprop="articleBody" style="max-height:300px;margin-top:20px;">
+	<p>Recently, I’m finding out that a beginner learns fast in programming,but for a junior programmer, it’s actually hard to go step further. Sometimes, when facing a problem that is so hard for me, I became so anxious to know the answer, thus my would keep stressed mentally and physically for hours. If I found out the answer, I got relaxed, and thought these suffering worth, but if I can’t find out the answer, I would lose confidence, and sometimes doubting if I’m really suitable to become a great programmer.</p>
+
+<p>I know I’m too stressed with things that I can’t give an answer, and a career in programming must go through much more progress which is frustrating when no solution can be found. But for me, it’s like a nature reaction to get stressed when facing things I can’t handle, I felt that tension is building up in my body, but simply can’t release it, because the more I want to get relaxed, the more stressful it became. This is the thing that really destroying my health and inner passion, I really want to figure out a way to make a change.</p>
+
+<p>I think this is a very common problem in many fields. Recently, I’m working on Chopin’s Etude in E Major (Tristesse), it’s a beautiful piece. I enjoy the A part (it’s a form in A-B-A) the most, it’s slow, melodic, elegant. But I struggled much with the B part, which is the full of passages of tritones. It’s quite hard to recognize the score, but the hardest part for me is that it does not sound pleasure because tritones are building long passage of tension, it’s really struggle to endure the unpleasant sound when practicing. But I can’t just leave B part, only play A part, because it’s an entity that related with each other.</p>
+
+<p>Actually, for me, when I decided exercise one music piece, I really don’t like these passages built up with demon chords. I end out spending too much time practicing these passages, and sometimes it dried out my confidence in continuing practicing this piece.</p>
+
+<p>So, the problem is we love programming, there are pleasant parts and unpleasant parts, when we spend too much time on the unpleasant part, we became hard to go step further and lose confidence. The problem is unpleasant parts are unavoidable, and sometimes incredibly important, how can we reduce pain when we working on it ?</p>
+
+      </div>
+      <div style="height:50px;">
+	<a href="/2016/05/11/my-recent-struggle-on-programming.html" class="button readmore-button">Read More</a>
+      </div>
+    </div>
+    <br />
+    
+    <div class="post-contents">
+      <h2>
+        <a class="post-link" href="/jbstudio/2016/04/27/one-week-trying-improvisation.html">One week trying improvisation</a>
+      </h2>
+      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>Apr 27, 2016</span>
+      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="/jbstudio/2016/04/27/one-week-trying-improvisation.html#disqus_thread"></a></span>
+      
+      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>music</span>
+      
+
+      <div class="post-content truncate" itemprop="articleBody" style="max-height:300px;margin-top:20px;">
+	<p>This week I’m trying simle improvisation following instructions of Youtube video, it’s really interesting because unlike normal composing, I don’t have to care about writing scores, all it focuses on is the moment. The idea of living in this moment sounds like Zen, and I really want to develop that lifestyle.</p>
+
+<p>At first two days, I tried to focus on the melody part, it’s hard at first, because I’m always trying to make the melody sadder and sadder, considering my loneliness recently.</p>
+
+<p>Then the third day, after watching Youtube video, I started to work on chords. Like go from the I chord, and goes to V chord, like leaving home, and finally came back to the I chord. Then my improvisation style turned into Cannon style, with few varations.</p>
+
+<p>The forth day, I watched more Youtube videos, then I knew the circle of fifth, using it to build passages and repeat themes. It’s quite cool, because it’s a good way for repetition. And actually I can remember many classical music uses circle of fifth, and produces quite beautiful sound.</p>
+
+<p>Finally the fifth and sixth day, I wanted more and more Youtube videos, and know how to implement modulation to make the piece more interesting. I was trying to think about how I’m going to develop this piece, what is the thing that really want to get accossed to.</p>
+
+<p>And one interesting thing I found is that, I’m the superuser of the music I’m improvising, there are certain rules to follow, following these rules, and see what interesting stuffs we can make, the infinate possibility really fasinates me a lot.</p>
+
+<p>Another thing I find is about creativity. When I’m improvising, I only focused on this moment, excluding stuffs realted with chords,  most of it does not need much problem-sloving. But when I’m faced with a programming problem, I’m actually seeking the results, I don’t care too much about the process, I’m too eager to get the problem done, which always lead to anxity when facing uncertainty. I really want to change my way of programming, but I’m still not sure how to find out a way of my own.</p>
+
+
+      </div>
+      <div style="height:50px;">
+	<a href="/2016/04/27/one-week-trying-improvisation.html" class="button readmore-button">Read More</a>
+      </div>
+    </div>
+    <br />
+    
+    <div class="post-contents">
+      <h2>
+        <a class="post-link" href="/jbstudio/2016/04/22/two-months-back-in-china.html">Two Months Back In China</a>
+      </h2>
+      <span class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i>Apr 22, 2016</span>
+      <span class="post-meta" style="margin-left:50px;margin-right:50px;"><i class="fa fa-comment-o">&nbsp;&nbsp;</i><a style="color:#828282" href="/jbstudio/2016/04/22/two-months-back-in-china.html#disqus_thread"></a></span>
+      
+      <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>life</span>
+      
+
+      <div class="post-content truncate" itemprop="articleBody" style="max-height:300px;margin-top:20px;">
+	<p>It has been nearly two months since I came back from Japan. At the first several weeks, days were miserable for me, I sort of felt reverse culture shock. Things  like changing credits, and renew my residential card really bothered me, because staffs in public service positions lack knowledge about their workflow, along with their ignorant attitude.</p>
+
+<p>Also, I don’t get into my living environment so much, I found myself lose common topics with my friends before I came for exchanging, because I changed so much during my exchange year, what we cared about now is different ( Actually most students just worry about whether they can go to the graduate school ). Another thing that frustrates me is that there is no exciting stuffs liking technology meet ups, life is quite boring for me.</p>
+
+<p>At the first month, I haven’t touched any stuffs on music, also not composed a single music piece. I really want to compose music pieces that are made from deep heart, but things are I can’t connect short music ideas into a whole piece. I’m sort of a perfectionism, who always want to make a perfect piece, but feared to take the first step make pieces that are not perfected done.</p>
+
+<p>It’s always to really put aside time to do things that we really want to do. At one hand, there is no deadline, we have plenty time to do it, but ends out spending much more time on Facebook, rather than our indeed goals. At another hand, we are afraid to face the fact we are not perfect, the first few pieces must not be of good quality, there must be a progress. Because in our education system, imperfect is “bad”, perfect is “good”, and we don’t want to be “bad”, we want to be “good”. But time passes by, we end out doing nothing, which is really bad thing for our innate goal.</p>
+
+<p>Recently, I’m realizing that I’m procrastinating too much. Last year, I’m planning to build my own blog, but actually not until one week ago, I started to learn Jekyll, use Sass to make beautiful layouts, write my first post, and all these only cost me one day!</p>
+
+<p>It’s time for changing now! I gradually accept that I have to experience the process of knowing nothing, constructing “bad” stuffs at the first period.</p>
+
+      </div>
+      <div style="height:50px;">
+	<a href="/2016/04/22/two-months-back-in-china.html" class="button readmore-button">Read More</a>
+      </div>
+    </div>
+    <br />
+    
   </div>
   <div class="col-md-4">
     <div class="post-contents">
       <i class="fa fa-tags">&nbsp;&nbsp; Tags</i><br />
-      {% for tag in site.tags %}
-      {% assign t = tag | first %}
-      {% assign posts = tag | last %}
-      <span class="label label-default">{{t | downcase | replace:" ","-" }} ( {{ posts | size }} )</span><br />
-      {% endfor %}
+      
+      
+      
+      <span class="label label-default">life ( 2 )</span><br />
+      
+      
+      
+      <span class="label label-default">music ( 1 )</span><br />
+      
+      
+      
+      <span class="label label-default">programming ( 1 )</span><br />
+      
+      
+      
+      <span class="label label-default">spirituality ( 1 )</span><br />
+      
     </div>
     <br />
     <div class="post-contents">
       <h3>About Me</h3>
-      <img src="{{ site.baseurl }}/img/me.jpg" style="margin:20px auto 0 auto;">
+      <img src="/jbstudio/img/me.jpg" style="margin:20px auto 0 auto;">
       <p style="font-size:18px;">I'm a 3rd year collage student, also a web developer. I love exporing cultures, learning languages and making BGM music!</p>
       <br />
       <div class="btn-group" role="group">
@@ -57,3 +265,50 @@ layout: default
   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
   }());
 </script>
+
+      </div>
+      <div class="clearfix">
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="container">
+
+    <h2 class="footer-heading">the musical programmer</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>the musical programmer</li>
+          <li><a href="mailto:zuimeng1995@gmail.com">zuimeng1995@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/Adagio-cantabile"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">Adagio-cantabile</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>A profolio for an artical programmer.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
