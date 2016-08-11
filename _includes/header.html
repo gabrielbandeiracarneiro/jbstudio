@@ -8,6 +8,7 @@
     <div class="navbar" style="margin-bottom:0;border:0">
     <ul class="navbar-nav nav header-nav">
 		{% for my_page in site.pages %}
+			{{my_page.url}}
           {% if my_page.title %}
 			 <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav }}</a></li>
           {% endif %}
