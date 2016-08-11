@@ -13,7 +13,7 @@ These are several meditating methods I tried:
 ### <a href="https://en.wikipedia.org/wiki/Mindfulness-based_stress_reduction">MBSR</a>
 MBSR (Mindfulness-based stress reduction) is a non-religious way to meditate. In this process, focusing on present moment, relaxing through deep breath, free from judgements are emphasized. When I first started doing this when I was a freshmen in college, I got wonderful experience, I started to realize how beautiful a tranquil present is. My concentration improved, I got more flows during studying and happier than ever before. I kept meditating in this way for the whole year on a weekly basis, and my happiness level goes like this.
 
-<img src="/img/happiness.png">
+<img src="{{site.baseurl}}/img/happiness.png">
 
 I actually didn’t insist meditating after half year since I didn’t get any improvements since then. For me, who is passionate in seeking newest exciting things, it’s hard to keep those positive changes stay for a life time, because it’s becomes less exciting if we don’t feel there are more positive changes taking place.
 
@@ -23,7 +23,7 @@ When I was an exchange student in Japan, I joined several zazen (座禅)  assemb
 
 First I joined a half-hour Zazen activity in a 曹洞宗（そうとうしゅう）temple. People meditate facing a wall, and after a short period we will walk through the room (this is known as walking meditation, aiming to building up relationships between mind and body through simple daily activity). Then we read “Heart Sutra” (般若心经), the interesting thing here is it’s all written in Chinese characters but it sounds totally different when pronounced in Japanese. Finally came the monk explaining “Heart Sutra”, he told us everyone can be enlightened if he/she focuses on his/her real life, keeping doing good to others.
 
-<img src="/img/temple1.png">
+<img src="{{site.baseurl}}/img/temple1.png">
 
 I joined another Zazen assembly in a famous 临济宗（りんざいしゅう） temple in Kyoto (<a href="http://www.myoshinji.or.jp/english/index.html">see the official website</a>), it’s a two days one night program. It was a snowy winter that time, and It was not such a pleasant stay there because we had to wake up at 4:30 am to start meditation. I tried my best to meditate but I was too sleepy. Anyway, scenery in the temple with snow falling down was quite beautiful.
 
