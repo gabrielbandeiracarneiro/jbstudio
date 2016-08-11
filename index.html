@@ -8,6 +8,7 @@ nav: Home
     {% for post in site.posts %}
     <div class="post-contents">
       <h2>
+		<img src={{post.picture}}><br>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <div style="height:50px;">
