@@ -9,6 +9,9 @@
 title: JB Studio Baby
 email: nildo.berto@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
+    <h1>Quem Somos?</h1>
+    A JB Estúdio é uma empresa especializada em fotografia digital de alta qualidade, que tem como principais objetivos oferecer um atendimento especializado e um produto final de alta qualidade com um toque de sofisticação.
+    Por entender que cada momento é ÚNICO, apostamos em uma equipe formada por profissionais qualificados, que procuram sempre retratar os clientes com precisão, capturando cada momento usando sempre técnica, sensibilidade, muito carinho e dedicação. investindo sempre no melhor tanto em equipamento quanto em estrutura.
 
 baseurl: "/jbstudio" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
