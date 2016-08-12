@@ -148,8 +148,8 @@
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} ));
-        width:         calc(100% - (#{$spacing-unit} ));
+        width: -webkit-calc(70% - (#{$spacing-unit} ));
+        width:         calc(70% - (#{$spacing-unit} ));
     }
 }
 
