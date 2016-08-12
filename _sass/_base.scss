@@ -155,7 +155,15 @@ a {
         transition: 0.8s;
     }
 }
-
+.header-nav-position {
+	border-radius: 15px;
+	background-color:#1371B2;
+    text-align:center;
+    display: inline-block;
+    float: none;
+    margin: 0;
+	color: #000000;
+}
 .header-nav {
     text-align:center;
     display: inline-block;
@@ -164,6 +172,7 @@ a {
 }
 
 .nav-button{
+	border-radius: 15px;
     padding: 10px;
     font-size: 18px; //nav button is 18px
     border: 5px solid white;
